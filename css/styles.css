@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    }
+
+.bubble-1{
+    width: 903px;
+    z-index: 5;
+    position: absolute;
+    left: -229px;
+    top: -420px
+}
+
+.bubble-2{
+    width: 914px;
+    z-index: 5;
+    position: absolute;
+    right: -249px;
+    bottom: -550px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.outbox{
+    border: 1px black solid;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 30vw;
+    margin-top: 13vw;
+    margin-bottom: 10vw;
+    background-color: white;
+    z-index: 6;
+    
+}
+
+.img-1{
+    width: 30vw;
+    border: 0vw white solid;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    position: absolute;
+}
+
+.img-2{
+    width: 9vw;
+    border: 0.62vw white solid;
+    border-radius: 14vw;
+    margin-left: 9vw;
+    margin-top: 6.5vw;
+    position: relative;
+}
+
+.content-1{
+    margin-left: 10.5vw;
+    margin-top: 0vw;
+    color: rgb(45, 50, 72);
+    font-size: 1.5vw;
+}
+
+.content-2{
+    margin-left: 13vw;
+    margin-top: 0.5vw;
+    color: hsl(227, 10%, 46%);
+    font-size: 1vw;
+}
+
+.hr-1 {
+    color: hsl(0, 0%, 59%);
+    margin-top: 2.5vw;
+}
+
+.content-3{
+    font-size: 1.5vw;
+    font-weight: 400, 700;
+    margin-top: 1.7vw;
+    margin-left: 3.5vw;
+}
+
+.content-4{
+    font-size: 0.8vw;
+    margin-top: 0.4vw;
+    margin-left: 3.3vw;
+}
+
+
+
+
